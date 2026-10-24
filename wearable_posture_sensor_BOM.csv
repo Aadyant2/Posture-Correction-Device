@@ -1,0 +1,11 @@
+Designator,Component Name,Value / Specs,Footprint,I2C Address,Role / Description,Qty
+"U1","Seeed XIAO ESP32-C3","ESP32-C3","Module:Seeed_XIAO_ESP32C3","N/A","Ultra-small RISC-V MCU with BLE 5.0, LiPo battery charging pads, 3.3V LDO",1
+"BT1","LiPo Battery","3.7V 350mAh","Battery:BatteryHolder_Keystone_1058","N/A","Rechargeable Single Cell Lithium-Ion Polymer Battery (3.7V nominal, 4.2V peak)",1
+"SW1","SPST Slide Switch","Power Switch","Button_Switch_SMD:SW_SPST_CK_JS102011SAQN","N/A","Single Pole Single Throw Master Power Switch",1
+"SW2","Pushbutton","6x6mm Tactile","Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK","N/A","Normally-open tactile momentary switch for posture tare / calibration",1
+"R1","Resistor","220 Ω","Resistor_SMD:R_0805_2012Metric","N/A","Current limiting resistor for posture warning indicator LED",1
+"D1","Alert LED","Amber 2.0V 20mA","LED_SMD:LED_0805_2012Metric","N/A","Posture deviation / slouch warning visual indicator",1
+"U2","MPU-6050 (GY-521)","IMU lower (0x68)","Module:GY-521_MPU6050","0x68","Lower spine (lumbar reference) 6-DOF IMU accelerometer & gyroscope, AD0 pulled to GND -> I2C 0x68",1
+"U3","MPU-6050 (GY-521)","IMU upper (0x69)","Module:GY-521_MPU6050","0x69","Upper spine (thoracic sensor) 6-DOF IMU accelerometer & gyroscope, AD0 pulled to 3V3 -> I2C 0x69",1
+"U4","DRV2605L Breakout","Haptic Driver (0x5A)","Module:Adafruit_DRV2605L","0x5A","Precision haptic motor driver with ERM & LRA waveform ROM library. I2C 0x5A, EN tied to 3V3",1
+"M1","Coin Vibration Motor","ERM 3.0V 75mA","Motor:VibrationMotor_Coin_10mm","N/A","10mm pancake eccentric rotating mass (ERM) coin vibration motor for silent tactile alerts",1
